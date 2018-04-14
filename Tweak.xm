@@ -50,3 +50,23 @@
 	return YES;
 }
 %end
+
+%hook SBPlatformController
+
+-(long long)medusaCapabilities {
+	return 1;
+}
+
+%end
+
+%hook SBMainWorkspace
+-(BOOL)isMedusaEnabled {
+	return YES;
+}
+%end
+
+%hook SBApplication
+-(BOOL)isMedusaCapable {
+	return YES;
+}
+%end
