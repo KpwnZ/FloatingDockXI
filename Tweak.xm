@@ -1,3 +1,5 @@
+// fuck https://apt.abcydia.com/read-1480.html !
+
 // static BOOL enableGesture = YES;
 
 @interface SBGrabberTongue : NSObject
